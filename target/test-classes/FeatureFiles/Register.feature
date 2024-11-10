@@ -1,11 +1,12 @@
 Feature: Registration functionality secnarios 
 
+@Register @One
  Scenario: verify whether the user is able to register into the applaction by providing all th fields 
   Given I lanuch the applaction 
   And I navigate to Account Registration page 
   When I provide all the below valid details 
   | Fristname | pavan                |
-  | Lastname  | kalyan               |
+  | Lastname  | Kalyan               |
   | Email     | panihoney8@gmail.com |
   | Telephone | 7660823309           |
   | Password  | 99663311             |
